@@ -1,0 +1,94 @@
+/* Contacts Section */
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+
+/* Fonts */
+.black-font {
+	color: black;
+}
+
+
+/* Margins */
+.m-top-neg-50-px {
+	margin-top: -50px;
+}
+.m-top-neg-100-px {
+	margin-top: -100px;
+}
+.m-bottom-neg-100-px {
+	margin-bottom: -100px;
+}
+.m-left-0-px {
+	margin-left: 0px;
+}
+
+
+/* Padding */
+.p-top-20-px {
+	padding-top: 20px;
+}
+.p-bottom-20-px {
+	padding-bottom: 20px;
+}
+.p-bottom-0-px {
+	padding-bottom: 0px;
+}
+
+/* Backgrounds */
+.bg-yellow {
+    background: #fdcc52;
+    background: -webkit-linear-gradient(#fdcc52,#fdc539);
+    background: linear-gradient(#fdcc52,#fdc539);
+}
+
+
+/* Map */
+.map {
+    height: 300px;
+}
+@media(max-width:768px) {
+    .map {
+        height: 60%;
+    }
+}
+.map iframe {
+    pointer-events: none;
+}
