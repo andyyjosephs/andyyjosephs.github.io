@@ -166,7 +166,6 @@ section.contact ul.list-social li.social-google-plus a:hover {
     background: linear-gradient(#fdcc52,#fdc539);
 }
 
-
 /* Map */
 .map {
     height: 300px;
@@ -178,4 +177,9 @@ section.contact ul.list-social li.social-google-plus a:hover {
 }
 .map iframe {
     pointer-events: none;
+}
+
+/* Other */
+.center-text{
+  text-align: center;
 }
