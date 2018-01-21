@@ -217,3 +217,14 @@ section.contact ul.list-social li.social-google-plus a:hover {
     visibility: hidden;
   }
 }
+
+footer .text {
+    color: #656565;
+    font-size: 80%;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	/* font-size: 12px; */
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 19px;
+}
